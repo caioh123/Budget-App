@@ -2,6 +2,8 @@ import { Component, Input, OnInit, Output, EventEmitter } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import { BudgetItem } from 'src/shared/models/budget-item.model';
 import { EditItemModalComponent } from '../edit-item-modal/edit-item-modal.component';
+import { UpdateEvent } from '../main-page/main-page.component'
+
 
 @Component({
   selector: 'app-budget-item-list',
